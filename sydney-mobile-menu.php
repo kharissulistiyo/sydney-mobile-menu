@@ -68,6 +68,17 @@ function paira_active_menu_scripts() {
 
   ?>
   <script type="text/javascript">
+  
+      jQuery(window).scroll(function() {    
+          var scroll = jQuery(window).scrollTop();
+
+          if (scroll >= 3) {
+              jQuery('body').addClass("body-sydney-scrolling");
+          } else {
+              jQuery('body').removeClass("body-sydney-scrolling");
+          }
+      });  
+  
       jQuery(document).ready(function ($) {
 
           $('#primary-menu').slicknav({

@@ -1,0 +1,50 @@
+.body-sydney-scrolling .site {
+	 margin-top: -49px;
+}
+ .body-sydney-scrolling .slicknav_menu {
+	 position: sticky;
+}
+ .body-sydney-scrolling .slicknav_menu .slicknav_nav {
+	 position: absolute;
+	 top: 45px;
+}
+ .slicknav_menu {
+	 background-color: transparent;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 z-index: 99999;
+}
+ .slicknav_menu > .slicknav_btn {
+	 float: left;
+	 margin-left: 0;
+}
+ .slicknav_menu .slicknav_nav {
+	 background-color: #4c4c4c;
+	 width: 250px;
+}
+ .slicknav_menu .slicknav_nav ul {
+	 margin-left: 0;
+}
+ .slicknav_menu .slicknav_item i {
+	 position: relative;
+}
+ .slicknav_menu .slicknav_item i svg {
+	 position: absolute;
+	 top: 5px;
+	 left: 5px;
+}
+ .slicknav_menu .slicknav_item svg {
+	 width: 12px;
+	 height: 12px;
+	 fill: #fff;
+}
+ .slicknav_menu .slicknav_row:hover, .slicknav_menu a:hover {
+	 border-radius: 0;
+	 background-color: #d83a3a;
+	 color: #fff;
+}
+ #mainnav, .menu-toggle, .sydney-offcanvas-menu {
+	 display: none !important;
+}
+ 
