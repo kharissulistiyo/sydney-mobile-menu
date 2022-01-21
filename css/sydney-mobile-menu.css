@@ -1,4 +1,14 @@
-.slicknav_menu {
+.body-sydney-scrolling .site {
+	 margin-top: -49px;
+}
+ .body-sydney-scrolling .slicknav_menu {
+	 position: sticky;
+}
+ .body-sydney-scrolling .slicknav_menu .slicknav_nav {
+	 position: absolute;
+	 top: 45px;
+}
+ .slicknav_menu {
 	 background-color: transparent;
 	 position: absolute;
 	 top: 0;
@@ -37,3 +47,4 @@
  #mainnav, .menu-toggle, .sydney-offcanvas-menu {
 	 display: none !important;
 }
+ 
