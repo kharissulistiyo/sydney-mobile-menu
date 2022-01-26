@@ -47,4 +47,21 @@
  #mainnav, .menu-toggle, .sydney-offcanvas-menu {
 	 display: none !important;
 }
- 
+.slicknav_menu .slicknav_no-text {
+  width: 28px;
+  height: 28px;  
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  width: 28px;
+  height: 3px;
+  margin-bottom: 7px;
+}
+
+.slicknav_menu .slicknav_icon-bar:first-child {
+  margin-top: 3px;
+}
+
+.slicknav_menu .slicknav_icon-bar:last-child {
+  margin-bottom: 0;
+} 
